@@ -1,0 +1,125 @@
+* {
+    padding:0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+/* section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+body {
+    background-color: #232323;
+}
+
+h1 {
+    margin: 50px 0;
+    text-transform: uppercase;
+    color: whitesmoke;
+    position: relative;
+    z-index: 7;
+}
+
+.card {
+   position: relative;
+   margin-top: 50px;
+   display: inline-block;
+   width: 500px;
+   height: 500px;
+   background: linear-gradient(to top left, #01202d 50% , #325559 50% );
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:black;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.5;
+    /* z-index:; */
+}
+
+.user, .lock{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    color: #01202d;
+    background-color: white;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 7;
+}
+
+input {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 300px;
+    height: 50px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #00282e;
+    border-radius: 50px;
+    border: none;
+    opacity: 0.5;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 300px;
+    height: 50px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #00282e;
+    border-radius: 50px;
+    border: none;
+}
+
+.btn {
+   position: relative;
+   text-transform: uppercase;
+   font-weight: 700;
+   margin-top: 20px;
+   z-index: 7;
+   cursor: pointer;
+}
+
+input::placeholder {
+    color: #00282e;
+    text-align: center;
+}
+
+input:focus {
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+.login-form {
+    position: relative;
+    margin-bottom: 20px;
+    z-index: 7;
+}
+
+.user {
+   position: absolute;
+}
+
+.lock {
+   position: absolute;
+   right: 20%;
+}
+
+
