@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.time-box {
+    padding: 50px 100px;
+    color: #00ff00;
+}
+
+.hms {
+
+    font-size: 5.5rem;
+}
+
+span {
+    font-size: 14px;
+}
+
+.dmy {
+    margin-top: 10px;
+    margin-left: 5px;
+}
